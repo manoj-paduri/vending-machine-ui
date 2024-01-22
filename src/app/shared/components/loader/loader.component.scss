@@ -1,0 +1,18 @@
+@import '/src/assets/styles/variables.scss';
+
+.cssload-container {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+}
+
+.loader-spinner {
+  width: 50px !important;
+  height: 50px !important;
+  color: $accent-color-navy;
+}

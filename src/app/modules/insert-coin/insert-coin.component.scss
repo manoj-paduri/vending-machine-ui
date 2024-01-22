@@ -1,0 +1,32 @@
+@import '/src/assets/styles/variables';
+
+.insert-coin-container {
+
+  p,
+  section {
+    color: #685206;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-justify: inter-word;
+  }
+
+  .display {
+    overflow: hidden;
+    margin: 5px;
+    padding: 12px 20px;
+    border: 0 none;
+    border-radius: 4px;
+    color: $text-white;
+    background-color: $accent-color-navy;
+  }
+
+  .display.-sm-width {
+    width: 160px;
+  }
+
+  .cn-w {
+    width: 180px;
+  }
+}

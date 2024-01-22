@@ -1,0 +1,8 @@
+<div class="items-container">
+  <ul class="item-list">
+    <li class="item" *ngFor="let item of items">
+      <span class="bold">{{item.code}}: </span>
+      <span>{{item.name}} - {{item.cost | currency:'R':true }} - {{item.remaining}}</span>
+    </li>
+  </ul>
+</div>

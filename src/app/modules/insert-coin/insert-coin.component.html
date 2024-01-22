@@ -1,0 +1,10 @@
+<div class="insert-coin-container">
+  <div fxLayout="column" fxLayoutAlign="space-between center">
+    <p class="display -sm-width">{{ coinBalance? (coinBalance | currency:'R':true): 'INSERT COIN / NOTE' }}</p>
+    <div fxLayout="row" fxLayoutAlign="space-between center" class="cn-w">
+      <button class="button -yellow" (click)='addBalance(5)'>R5</button>
+      <button class="button -blue" (click)='addBalance(10)'>R10</button>
+      <button class="button -green" (click)='addBalance(20)'>R20</button>
+    </div>
+  </div>
+</div>

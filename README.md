@@ -2,6 +2,39 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
+## Introduction
+
+In this vending machine project. It will accept money, maintain inventory, and dispense products — all the things that we might expect a vending machine to do.
+
+## Set Up
+
+Prerequisites: _@angular/cli_
+
+Install dependencies:
+```
+npm install
+```
+
+Install `json-server`:
+```
+npm install -g json-server
+```
+
+Start the API server:
+```
+npm run api
+```
+**Note**: Data for the API server is found in `db.json` in the root project folder.
+
+Start the app:
+```
+ng serve
+```
+
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+------------------------------------------------------
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

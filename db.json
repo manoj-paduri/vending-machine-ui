@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Sprite",
+      "cost": 8,
+      "remaining": 8,
+      "code": "A1"
+    },
+    {
+      "id": "2",
+      "name": "Coke",
+      "cost": 6,
+      "remaining": 5,
+      "code": "B2"
+    },
+    {
+      "id": "3",
+      "name": "Lays",
+      "cost": 4,
+      "remaining": 6,
+      "code": "C3"
+    },
+    {
+      "id": "4",
+      "name": "Kit Kat",
+      "cost": 10,
+      "remaining": 8,
+      "code": "D4"
+    }
+  ]
+}
